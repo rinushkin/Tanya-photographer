@@ -1126,6 +1126,7 @@ a:hover {
 	min-height: 500px;
 	z-index: 2;
 	position: relative;
+	backdrop-filter: blur(2px);
 }
 
 .site-section-hero .heading {
