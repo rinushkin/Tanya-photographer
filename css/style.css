@@ -6,6 +6,10 @@ body {
 	background: #EAE0C8;
 }
 
+body::-webkit-scrollbar {
+	display: none;
+  }
+
 ::-moz-selection {
 	background: #000;
 	color: #fff;
@@ -938,6 +942,7 @@ a:hover {
 }
 
 .main-content {
+	overflow:hidden;
 	float: right;
 	width: calc(100% - 250px);
 }
